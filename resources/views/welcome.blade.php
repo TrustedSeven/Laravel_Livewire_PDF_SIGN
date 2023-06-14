@@ -7,15 +7,13 @@
 
     <title>Laravel</title>
     <!-- Scripts -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.worker.min.js'></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.8/interact.min.js"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="../js/app.js"></script>
+
 
     <!-- Styles -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="../css/app.css" rel="stylesheet">
+
 </head>
 
 <body class="antialiased">
@@ -23,6 +21,11 @@
     <div class="container">
         @livewire('category')
     </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.9/interact.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.worker.min.js'></script><script  src="./script.js"></script>
 </body>
 
 </html>
