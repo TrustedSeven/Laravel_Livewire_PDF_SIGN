@@ -11,13 +11,13 @@
 
 
     <!-- Styles -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="../css/app.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+    <link href="../css/app.css" rel="stylesheet">
 </head>
 
 <body class="antialiased">
-    <h2 class="mt-3">Signature Track</h2>
+    <h2 class="mt-3 test">Signature Track</h2>
     <div class="container">
         @livewire('category')
     </div>
